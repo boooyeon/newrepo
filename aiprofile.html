@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <form action="./login.html" method="POST">
+        <div>
+            <input type="text" name="userid" placeholder="아이디를 입력해주세요" /><br/>
+            <input type="password" name="userpw" placeholder="비밀번호를 입력해주세요" /><br/>
+            <label for="check_pw">비밀번호 찾기용 질문: </label>
+            <select id="check_pw" name="pwquestion">
+                <option value="q1">가장기억에 남는 장소는</option>
+                <option value="q2">가장기억에 남는 음식은</option>
+                <option value="q3">가장기억에 남는 사람은</option>
+                <option value="q4">가장기억에 남는 책은</option>
+            </select>
+            <input type="pwanswer" name="answer" placeholder="질문에대한답을 입력하세요" /><br/>
+            <button name="전송" type="submit">전송하기</button><br/>
+        </div>
+    </form>
+</body>
+</html>

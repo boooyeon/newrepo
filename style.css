@@ -1,0 +1,16 @@
+* {
+    background-color: aquamarine;
+}
+input {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: khaki;
+        
+}
+select {
+    padding: 10px;
+}
+button {
+    border-radius:  50px;
+}
